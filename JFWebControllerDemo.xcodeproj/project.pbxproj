@@ -74,7 +74,6 @@
 		4D2D428C1737770F00B3417A = {
 			isa = PBXGroup;
 			children = (
-				4D449A441738D90A00F9C6A1 /* MessageUI.framework */,
 				4D2D42C71737772900B3417A /* JFWebController */,
 				4D2D429E1737770F00B3417A /* JFWebControllerDemo */,
 				4D2D42971737770F00B3417A /* Frameworks */,
@@ -93,6 +92,7 @@
 		4D2D42971737770F00B3417A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D449A441738D90A00F9C6A1 /* MessageUI.framework */,
 				4D2D42981737770F00B3417A /* UIKit.framework */,
 				4D2D429A1737770F00B3417A /* Foundation.framework */,
 				4D2D429C1737770F00B3417A /* CoreGraphics.framework */,
