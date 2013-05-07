@@ -17,11 +17,15 @@
 		4D2D42AD1737770F00B3417A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D42AC1737770F00B3417A /* Default@2x.png */; };
 		4D2D42AF1737770F00B3417A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D42AE1737770F00B3417A /* Default-568h@2x.png */; };
 		4D2D42B21737770F00B3417A /* JFMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D42B11737770F00B3417A /* JFMasterViewController.m */; };
-		4D2D42B51737770F00B3417A /* JFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D42B41737770F00B3417A /* JFDetailViewController.m */; };
 		4D2D42B81737770F00B3417A /* JFMasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D42B61737770F00B3417A /* JFMasterViewController_iPhone.xib */; };
 		4D2D42BB1737771000B3417A /* JFMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D42B91737771000B3417A /* JFMasterViewController_iPad.xib */; };
-		4D2D42BE1737771000B3417A /* JFDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D42BC1737771000B3417A /* JFDetailViewController_iPhone.xib */; };
-		4D2D42C11737771000B3417A /* JFDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D42BF1737771000B3417A /* JFDetailViewController_iPad.xib */; };
+		4D2D42CF1737772900B3417A /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D42C81737772900B3417A /* back.png */; };
+		4D2D42D01737772900B3417A /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D42C91737772900B3417A /* back@2x.png */; };
+		4D2D42D11737772900B3417A /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D42CA1737772900B3417A /* forward.png */; };
+		4D2D42D21737772900B3417A /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D42CB1737772900B3417A /* forward@2x.png */; };
+		4D2D42D81737778E00B3417A /* JFWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D42D61737778E00B3417A /* JFWebViewController.m */; };
+		4D2D42D91737778E00B3417A /* JFWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D42D71737778E00B3417A /* JFWebViewController.xib */; };
+		4D449A451738D90A00F9C6A1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D449A441738D90A00F9C6A1 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,12 +44,16 @@
 		4D2D42AE1737770F00B3417A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4D2D42B01737770F00B3417A /* JFMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFMasterViewController.h; sourceTree = "<group>"; };
 		4D2D42B11737770F00B3417A /* JFMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFMasterViewController.m; sourceTree = "<group>"; };
-		4D2D42B31737770F00B3417A /* JFDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFDetailViewController.h; sourceTree = "<group>"; };
-		4D2D42B41737770F00B3417A /* JFDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFDetailViewController.m; sourceTree = "<group>"; };
 		4D2D42B71737770F00B3417A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JFMasterViewController_iPhone.xib; sourceTree = "<group>"; };
 		4D2D42BA1737771000B3417A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JFMasterViewController_iPad.xib; sourceTree = "<group>"; };
-		4D2D42BD1737771000B3417A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JFDetailViewController_iPhone.xib; sourceTree = "<group>"; };
-		4D2D42C01737771000B3417A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JFDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		4D2D42C81737772900B3417A /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		4D2D42C91737772900B3417A /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		4D2D42CA1737772900B3417A /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		4D2D42CB1737772900B3417A /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
+		4D2D42D51737778E00B3417A /* JFWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFWebViewController.h; sourceTree = "<group>"; };
+		4D2D42D61737778E00B3417A /* JFWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFWebViewController.m; sourceTree = "<group>"; };
+		4D2D42D71737778E00B3417A /* JFWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFWebViewController.xib; sourceTree = "<group>"; };
+		4D449A441738D90A00F9C6A1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D449A451738D90A00F9C6A1 /* MessageUI.framework in Frameworks */,
 				4D2D42991737770F00B3417A /* UIKit.framework in Frameworks */,
 				4D2D429B1737770F00B3417A /* Foundation.framework in Frameworks */,
 				4D2D429D1737770F00B3417A /* CoreGraphics.framework in Frameworks */,
@@ -65,6 +74,8 @@
 		4D2D428C1737770F00B3417A = {
 			isa = PBXGroup;
 			children = (
+				4D449A441738D90A00F9C6A1 /* MessageUI.framework */,
+				4D2D42C71737772900B3417A /* JFWebController */,
 				4D2D429E1737770F00B3417A /* JFWebControllerDemo */,
 				4D2D42971737770F00B3417A /* Frameworks */,
 				4D2D42961737770F00B3417A /* Products */,
@@ -96,12 +107,8 @@
 				4D2D42A81737770F00B3417A /* JFAppDelegate.m */,
 				4D2D42B01737770F00B3417A /* JFMasterViewController.h */,
 				4D2D42B11737770F00B3417A /* JFMasterViewController.m */,
-				4D2D42B31737770F00B3417A /* JFDetailViewController.h */,
-				4D2D42B41737770F00B3417A /* JFDetailViewController.m */,
 				4D2D42B61737770F00B3417A /* JFMasterViewController_iPhone.xib */,
 				4D2D42B91737771000B3417A /* JFMasterViewController_iPad.xib */,
-				4D2D42BC1737771000B3417A /* JFDetailViewController_iPhone.xib */,
-				4D2D42BF1737771000B3417A /* JFDetailViewController_iPad.xib */,
 				4D2D429F1737770F00B3417A /* Supporting Files */,
 			);
 			path = JFWebControllerDemo;
@@ -119,6 +126,20 @@
 				4D2D42AE1737770F00B3417A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D2D42C71737772900B3417A /* JFWebController */ = {
+			isa = PBXGroup;
+			children = (
+				4D2D42C81737772900B3417A /* back.png */,
+				4D2D42C91737772900B3417A /* back@2x.png */,
+				4D2D42CA1737772900B3417A /* forward.png */,
+				4D2D42CB1737772900B3417A /* forward@2x.png */,
+				4D2D42D51737778E00B3417A /* JFWebViewController.h */,
+				4D2D42D61737778E00B3417A /* JFWebViewController.m */,
+				4D2D42D71737778E00B3417A /* JFWebViewController.xib */,
+			);
+			path = JFWebController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,8 +200,11 @@
 				4D2D42AF1737770F00B3417A /* Default-568h@2x.png in Resources */,
 				4D2D42B81737770F00B3417A /* JFMasterViewController_iPhone.xib in Resources */,
 				4D2D42BB1737771000B3417A /* JFMasterViewController_iPad.xib in Resources */,
-				4D2D42BE1737771000B3417A /* JFDetailViewController_iPhone.xib in Resources */,
-				4D2D42C11737771000B3417A /* JFDetailViewController_iPad.xib in Resources */,
+				4D2D42CF1737772900B3417A /* back.png in Resources */,
+				4D2D42D01737772900B3417A /* back@2x.png in Resources */,
+				4D2D42D11737772900B3417A /* forward.png in Resources */,
+				4D2D42D21737772900B3417A /* forward@2x.png in Resources */,
+				4D2D42D91737778E00B3417A /* JFWebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +218,7 @@
 				4D2D42A51737770F00B3417A /* main.m in Sources */,
 				4D2D42A91737770F00B3417A /* JFAppDelegate.m in Sources */,
 				4D2D42B21737770F00B3417A /* JFMasterViewController.m in Sources */,
-				4D2D42B51737770F00B3417A /* JFDetailViewController.m in Sources */,
+				4D2D42D81737778E00B3417A /* JFWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,22 +247,6 @@
 				4D2D42BA1737771000B3417A /* en */,
 			);
 			name = JFMasterViewController_iPad.xib;
-			sourceTree = "<group>";
-		};
-		4D2D42BC1737771000B3417A /* JFDetailViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D2D42BD1737771000B3417A /* en */,
-			);
-			name = JFDetailViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		4D2D42BF1737771000B3417A /* JFDetailViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D2D42C01737771000B3417A /* en */,
-			);
-			name = JFDetailViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -343,6 +351,7 @@
 				4D2D42C61737771000B3417A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

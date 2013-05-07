@@ -10,7 +10,7 @@
 
 #import "JFMasterViewController.h"
 
-#import "JFDetailViewController.h"
+
 
 @implementation JFAppDelegate
 
@@ -24,18 +24,9 @@
         self.window.rootViewController = self.navigationController;
     } else {
         JFMasterViewController *masterViewController = [[JFMasterViewController alloc] initWithNibName:@"JFMasterViewController_iPad" bundle:nil];
-        UINavigationController *masterNavigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
+        self.navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
         
-        JFDetailViewController *detailViewController = [[JFDetailViewController alloc] initWithNibName:@"JFDetailViewController_iPad" bundle:nil];
-        UINavigationController *detailNavigationController = [[UINavigationController alloc] initWithRootViewController:detailViewController];
-    	
-    	masterViewController.detailViewController = detailViewController;
-    	
-        self.splitViewController = [[UISplitViewController alloc] init];
-        self.splitViewController.delegate = detailViewController;
-        self.splitViewController.viewControllers = @[masterNavigationController, detailNavigationController];
-        
-        self.window.rootViewController = self.splitViewController;
+    self.window.rootViewController = self.navigationController;
     }
     [self.window makeKeyAndVisible];
     return YES;
