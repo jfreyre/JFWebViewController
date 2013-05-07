@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "jfreyre" => "jerome.freyre@gmail.com" }
 
-  s.source       = { :git => "https://github.com/jfreyre/JFWebViewController.git", :tag => s.version.to_s" }
+  s.source       = { :git => "https://github.com/jfreyre/JFWebViewController.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '5.0'
 
